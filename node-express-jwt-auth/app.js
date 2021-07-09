@@ -17,7 +17,7 @@ app.set('view engine', 'ejs');
 // database connection
 const dbURI = 'mongodb+srv://abantika:25mongocfg21@cluster0.et3rl.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex:true })
-  .then((result) => app.listen(3000))
+  .then((result) => app.listen(5000))
   .catch((err) => console.log(err));
 
 // routes
